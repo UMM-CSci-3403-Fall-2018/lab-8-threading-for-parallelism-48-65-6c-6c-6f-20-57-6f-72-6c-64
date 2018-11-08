@@ -6,6 +6,7 @@ public class SerialMain {
 
     public static void main(String[] args) {
         int numValues = Integer.parseInt(args[0]);
+//        int numValues = 100;
         MinimumPairwiseDistance mpd = new SerialMinimumPairwiseDistance();
 
         Random random = new Random();
